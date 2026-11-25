@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Test and coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.swp
