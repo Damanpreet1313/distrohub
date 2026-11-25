@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     app_version: str = "0.1.0"
     environment: Literal["development", "testing", "production"] = "development"
     debug: bool = False
+    docker_host: str | None = None
 
 
 @lru_cache
